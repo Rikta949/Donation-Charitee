@@ -9,17 +9,23 @@ body {
 
 .top-banner {
     display: flex;
+    flex-direction: column;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.3) ), url(img/donation5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 95vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin-bottom: 50px;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 60%;
 }
 
@@ -42,4 +48,47 @@ body {
     border-radius: 5px;
     font-weight: 500;
     text-align: center;
+}
+
+.donation-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.donation-area h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 40px;
+}
+.donation-area p{
+    color: #777;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.donate-amount h1{
+    padding: 35px;
+    background-color: #ddd;
+    margin-left: 25px;
+    border-radius: 5px;
+    color: rgb(95, 95, 95);
+}
+.donate-amount h1:hover{
+    background-color: rgb(255, 219, 206);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.custom-amount {
+    padding: 25px 150px;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 35px 0;
 }
