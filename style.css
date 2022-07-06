@@ -7,6 +7,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 40px;
+}
+
 .top-banner {
     display: flex;
     flex-direction: column;
@@ -58,12 +65,6 @@ body {
     margin-bottom: 55px;
 }
 
-.donation-area h1{
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    padding: 15px 40px;
-}
 .donation-area p{
     color: #777;
 }
@@ -92,3 +93,58 @@ body {
     font-weight: 500;
     margin: 35px 0;
 }
+
+.donation-plan {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.desc {
+    text-align: center;
+    color: #777;
+    padding: 40px 20%;
+}
+
+.donetion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    padding: 20px 0;
+}
+
+.donetion-box {
+    padding: 60px 25px;
+    margin-left: 25px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+/* .donetion-shelter {
+    background-color: #FFEEEE;
+    padding: 60px 25px;
+    margin-left: 25px;
+    width: 25%;
+    border-radius: 10px;
+} */
+
+.bg-cyan {
+    background-color: #EDF5F6;
+}
+.bg-redis {
+    background-color: #FFEEEE;
+}
+
+.bg-orng {
+    background-color: #FFF4D6;
+}
+
+/* .donetion-edu {
+    background-color: #FFF4D6;
+    padding: 60px 25px;
+    margin-left: 25px;
+    width: 25%;
+    border-radius: 10px;
+} */
+
