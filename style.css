@@ -171,3 +171,39 @@ h2 {
     border-radius: 10px;
 }
 
+.my-updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.my-updates p{
+    padding: 25px 20%;
+    text-align: center;
+}
+
+.input-box {
+    padding: 80px 125px;
+    background-color: #FFF4D6;
+}
+
+.email-input {
+    padding: 15px 60px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1E1E1E;
+    padding: 30px;
+}
+.footer h1{
+    color: orangered;
+    text-transform: capitalize;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+}
